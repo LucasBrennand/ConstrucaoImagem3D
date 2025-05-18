@@ -28,11 +28,16 @@ ConstrucaoImagem3D-main/
     Extraia os arquivos para o seu computador (Baixe a versão CUDA somente se tiver uma GPU da NVIDIA)
 
 2. **Baixe o ZIP do repositorio e extraia para a mesma pasta onde está salvo seu COLMAP**
-    Exemplo de estrutura:
-    COLMAP/
-    ├── bin/
-    ├── ConstrucaoImagem3D-main/
-    ├── plugins/
+    Exemplo de estrutura: ..
+
+    COLMAP/ ..
+
+    ├── bin/ ..
+
+    ├── ConstrucaoImagem3D-main/ ..
+
+    ├── plugins/ ..
+
 
 3. **Abra o VSCODE e navegue até a pasta "bin" pelo terminal (CMD)**
     ```bash
@@ -54,15 +59,22 @@ ConstrucaoImagem3D-main/
 
 2. **Crie uma pasta onde estiver salvo sua pasta COLMAP**
  Exemplo de estrutura:
-    COLMAP/
-    ├── bin/
-    ├── ConstrucaoImagem3D-main/
-    ├── plugins/
+    COLMAP/ ..
+
+    ├── bin/ ..
+
+    ├── ConstrucaoImagem3D-main/ ..
+
+    ├── plugins/ ..
+
 
 3. **Crie uma pasta chamada "imagens" dentro da pasta que foi criada**
- Exemplo de estrutura:
-    ConstrucaoImagem3D-main/
-    ├── imagens/
+ Exemplo de estrutura: ..
+ 
+    ConstrucaoImagem3D-main/ ..
+
+    ├── imagens/ ..
+
 
 4. **Baixe um database de imagens relevantes ao projeto e coloque elas dentro da pasta "imagens"**
 Esse repositorio utilizou o database [THU-MVS](https://www.aoki.ecei.tohoku.ac.jp/mvs/)
