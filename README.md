@@ -15,11 +15,11 @@ Demonstrar o uso de técnicas de Structure-from-Motion (SfM) para gerar modelos 
 - Git + GitHub — Controle de versão e backup do projeto
 
 ## 📁 Estrutura do Projeto
-ConstrucaoImagem3D-main/ ..
-├── imagens/ ..
-├── sparse/0/ ..
-├── README.md ..
-├── .gitignore ..
+ConstrucaoImagem3D-main/<br>
+├── imagens/<br>
+├── sparse/0/<br>
+├── README.md<br>
+├── .gitignore<br>
 
 
 ## Para a visualização do modelo do repositorio 
