@@ -30,15 +30,18 @@ construcao3d/
    colmap feature_extractor --database_path construcao3d/database.db --image_path construcao3d/imagens
 
 2. **Matching de Imagens**
+    ```bash
     colmap exhaustive_matcher --database_path construcao3d/database.db
 
 3. **Reconstrução esparsa (SfM)**
+    ```bash
     colmap mapper --database_path construcao3d/database.db --image_path construcao3d/imagens --output_path construcao3d/sparse
 
 4. **Visualização do modelo**
+    ```bash
     colmap model_viewer --path construcao3d/sparse/0
 
-⚠️ Observações
+**⚠️ Observações**
 O arquivo database.db não está incluído neste repositório por ser muito grande. Você deve gerá-lo localmente.
 A pasta dense/ também não está incluída devido ao seu tamanho.
 
